@@ -21,7 +21,7 @@ interface UserActionsProps {
   userName: string;
 }
 
-export function UserActions({ userId, userName }: UserActionsProps) {
+export function UserActions({ userName }: UserActionsProps) {
   const [showDeleteDialog, setShowDeleteDialog] = useState(false);
 
   return (
